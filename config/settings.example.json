@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "mode": "offline",
+  "live_actions_enabled": false,
+  "timezone": "America/Chicago",
+  "marketplace": "US",
+  "currency": "USD",
+  "products": [
+    {
+      "key": "pureflow_60",
+      "name": "Pureflow clear nasal strips, 60 count",
+      "asin": "B0HBRMBPR2",
+      "sku": null,
+      "campaign_ids": [],
+      "goal": "Relevant shopper visibility and conversion learning with controlled spend"
+    },
+    {
+      "key": "cable_8",
+      "name": "Magnetic cable organizer, 8-pack",
+      "asin": null,
+      "sku": null,
+      "campaign_ids": [],
+      "goal": "Limit inefficient spend; retain evidence-based coverage"
+    },
+    {
+      "key": "cable_12",
+      "name": "Magnetic cable organizer, 12-pack",
+      "asin": null,
+      "sku": null,
+      "campaign_ids": [],
+      "goal": "Prioritize efficient growth over the 8-pack"
+    }
+  ],
+  "economics": {
+    "selling_price_usd": null,
+    "landed_unit_cost_usd": null,
+    "amazon_fees_per_unit_usd": null,
+    "other_variable_costs_usd": null,
+    "break_even_acos_pct": null
+  },
+  "approval": {
+    "required_for_live_changes": true,
+    "approved_change_set": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "status": "draft",
+  "enabled": false,
+  "evaluation_mode": "recommendations_only",
+  "automated_bidding_owner": "Scale Insights (historical context; verify current assignments)",
+  "principles": [
+    "Separate relevance exclusions from performance exclusions.",
+    "Never exclude core relevant queries solely for a small recent zero-order sample.",
+    "Review overlap and harvesting before consolidation.",
+    "Separate placement tests from base-bid changes.",
+    "Treat conditional rule caps as conditional; verify execution logs."
+  ],
+  "thresholds": {
+    "minimum_mature_clicks": null,
+    "minimum_mature_spend_usd": null,
+    "attribution_wait_days": null,
+    "cooldown_days": null,
+    "max_effective_bid_usd": null
+  },
+  "action_policy": {
+    "bid_changes": "approval_required",
+    "budget_changes": "approval_required",
+    "placement_changes": "approval_required",
+    "campaign_status_changes": "approval_required",
+    "targeting_and_negative_changes": "approval_required",
+    "rule_changes": "approval_required"
+  },
+  "note": "Documentation placeholder only. No evaluator or live writer exists. Do not interpret null thresholds as zero or unlimited."
+}

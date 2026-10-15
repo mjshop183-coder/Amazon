@@ -1,0 +1,37 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+config/*
+!config/*.example.json
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*token*.json
+# Browser state
+auth/
+sessions/
+storage-state*.json
+cookies*
+# Private business data: only guidance/templates are tracked
+campaign-data/**
+!campaign-data/README.md
+reports/**
+!reports/README.md
+!reports/templates/
+!reports/templates/*.md
+logs/
+private/
+backups/
+# Runtime/editor output
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.idea/
+.vscode/
